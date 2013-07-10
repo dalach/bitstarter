@@ -1,6 +1,6 @@
 var express = require('express');
 var text = fs.readFileSync("index.html");
-var text2 = buffer.toString(text)
+var text2 = buffer.toString(text);
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
